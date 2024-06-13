@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemilihan Online</title>
+    <link rel="stylesheet" href="asset/CSS/votingpage.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                  <li><a href="#beranda">BERANDA</a></li>
+                  <li><a href="#berita">BERITA</a></li>
+                  <li><a href="#rekapitulasi">REKAPITULASI</a></li>
+                  <li><a href="#pemilihan">PEMILIHAN</a></li>
+                  <li><a href="#tentang Kami">TENTANG</a></li>
+                  <li><a href="#Hubungi Kami">HUBUNGI</a></li>
+                </ul>
+              </nav>
+              
+              <div class="fas fa-bars"></div>
+              
+              <div class="logo">
+                <a href="#"><h1><img src="asset/img/logopilihdong.png" width="100px"></h1></a>
+              </div>
+            <h1>Pemilihan Online</h1>
+            <p>Pilihlah calon terbaik untuk Presiden, Bupati, dan Gubernur.</p>
+        </header>
+        
+        <form action="submit_vote.html" method="POST">
+            <section>
+                <h2>Pemilihan Presiden</h2>
+                <div class="candidates">
+                    <label>
+                        <img src="asset/img/presiden 1.png" alt="Calon Presiden 1">
+                        <div class="candidate-info">
+                            <input type="radio" name="presiden" value="calon1">
+                            <span>Calon Presiden 1</span>
+                        </div>
+                    </label>
+                    <label>
+                        <img src="asset/img/presiden 2.png" alt="Calon Presiden 2">
+                        <div class="candidate-info">
+                            <input type="radio" name="presiden" value="calon2">
+                            <span>Calon Presiden 2</span>
+                        </div>
+                    </label>
+                    <label>
+                        <img src="asset/img/presiden 3.png" alt="Calon Presiden 3">
+                        <div class="candidate-info">
+                            <input type="radio" name="presiden" value="calon3">
+                            <span>Calon Presiden 3</span>
+                        </div>
+                    </label>
+                </div>
+            </section>
+
+            <section>
+                <h2>Pemilihan Bupati</h2>
+                <div class="candidates">
+                    <label>
+                        <img src="asset/img/bupati 1.jpeg" alt="Calon Bupati 1">
+                        <div class="candidate-info">
+                            <input type="radio" name="bupati" value="calon1">
+                            <span>Calon Bupati 1</span>
+                        </div>
+                    </label>
+                    <label>
+                        <img src="asset/img/bupati 2.png" alt="Calon Bupati 2">
+                        <div class="candidate-info">
+                            <input type="radio" name="bupati" value="calon2">
+                            <span>Calon Bupati 2</span>
+                        </div>
+                    </label>
+                    <label>
+                        <img src="asset/img/bupati 3.jpeg" alt="Calon Bupati 3">
+                        <div class="candidate-info">
+                            <input type="radio" name="bupati" value="calon3">
+                            <span>Calon Bupati 3</span>
+                        </div>
+                    </label>
+                </div>
+            </section>
+
+            <section>
+                <h2>Pemilihan Gubernur</h2>
+                <div class="candidates">
+                    <label>
+                        <img src="asset/img/gubernur 1.jpeg" alt="Calon Gubernur 1">
+                        <div class="candidate-info">
+                            <input type="radio" name="gubernur" value="calon1">
+                            <span>Calon Gubernur 1</span>
+                        </div>
+                    </label>
+                    <label>
+                        <img src="asset/img/gubernur 2.jpeg" alt="Calon Gubernur 2">
+                        <div class="candidate-info">
+                            <input type="radio" name="gubernur" value="calon2">
+                            <span>Calon Gubernur 2</span>
+                        </div>
+                    </label>
+                    <label>
+                        <img src="asset/img/gubernur 3.jpeg" alt="Calon Gubernur 3">
+                        <div class="candidate-info">
+                            <input type="radio" name="gubernur" value="calon3">
+                            <span>Calon Gubernur 3</span>
+                        </div>
+                    </label>
+                </div>
+            </section>
+
+            <div class="submit-button">
+                <button type="submit">Kirim Suara</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
